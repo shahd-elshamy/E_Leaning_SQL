@@ -50,11 +50,7 @@ The database simulates an e-learning system with the following tables:
 ---
 
 ## Design Decisions
-
-- `enrollments` and `reviews` use **composite primary keys** `(student_id, course_id)` instead of surrogate keys — reflecting their nature as junction tables in an M:N relationship
 - Constraints include CHECK, UNIQUE, DEFAULT, and ON DELETE CASCADE where appropriate
-
----
 
 ## Tools Used
 
